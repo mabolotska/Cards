@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D032D7C22A97399B00B6FAC8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09476742A9735B300A8E077 /* Card.swift */; };
+		D032D7C32A9739A100B6FAC8 /* ConcentrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09476732A9735B000A8E077 /* ConcentrationModel.swift */; };
 		D0DF71992A5BF83C0002A8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DF71982A5BF83C0002A8E0 /* AppDelegate.swift */; };
 		D0DF719B2A5BF83C0002A8E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DF719A2A5BF83C0002A8E0 /* SceneDelegate.swift */; };
 		D0DF719D2A5BF83C0002A8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DF719C2A5BF83C0002A8E0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D09476732A9735B000A8E077 /* ConcentrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationModel.swift; sourceTree = "<group>"; };
+		D09476742A9735B300A8E077 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D0DF71952A5BF83C0002A8E0 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DF71982A5BF83C0002A8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DF719A2A5BF83C0002A8E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D09476722A9735AA00A8E077 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D0DF718C2A5BF83C0002A8E0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +67,12 @@
 		D0DF71972A5BF83C0002A8E0 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				D09476722A9735AA00A8E077 /* Model */,
 				D0DF71982A5BF83C0002A8E0 /* AppDelegate.swift */,
+				D09476742A9735B300A8E077 /* Card.swift */,
 				D0DF719A2A5BF83C0002A8E0 /* SceneDelegate.swift */,
 				D0DF719C2A5BF83C0002A8E0 /* ViewController.swift */,
+				D09476732A9735B000A8E077 /* ConcentrationModel.swift */,
 				D0DF719E2A5BF83C0002A8E0 /* Main.storyboard */,
 				D0DF71A12A5BF83E0002A8E0 /* Assets.xcassets */,
 				D0DF71A32A5BF83E0002A8E0 /* LaunchScreen.storyboard */,
@@ -139,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0DF719D2A5BF83C0002A8E0 /* ViewController.swift in Sources */,
+				D032D7C32A9739A100B6FAC8 /* ConcentrationModel.swift in Sources */,
 				D0DF71992A5BF83C0002A8E0 /* AppDelegate.swift in Sources */,
 				D0DF719B2A5BF83C0002A8E0 /* SceneDelegate.swift in Sources */,
+				D032D7C22A97399B00B6FAC8 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
