@@ -14,9 +14,13 @@ struct Card: Hashable {
         return lhs.identifier == rhs.identifier
     }
     
+    var cards: [Card] = []
+    
     var isFaceUp = false
     var isMatched = false
     var identifier: Int
+    
+ 
     
     private static var identifierFactory = 0
     
